@@ -1,0 +1,13 @@
+#h1001,#h1002{
+    color: blueviolet;
+}
+#h2001,#h3001{
+    border: 1px solid red;
+    border-radius: 8px;
+}
+#p001{
+    border-bottom: 3px solid pink;
+}
+#s001{
+    background-color: aqua;
+}
