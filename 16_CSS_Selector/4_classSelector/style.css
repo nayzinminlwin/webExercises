@@ -5,8 +5,8 @@
 }
 
 .border{
-    /* border: 2px solid violet; */
-    border: 2px dotted violet;
+    border: 2px solid violet;
+    /* border: 2px dotted violet; */
     border-radius: 4px;
 }
 
