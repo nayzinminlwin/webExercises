@@ -1,0 +1,38 @@
+.pre-size{
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+}
+
+.container{
+    position: relative;
+    /* float: left; */
+    background-color:#df1767;
+    margin: 50px auto;
+}
+
+.square {
+    inset: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 {
+    background-color: rgb(55, 130, 209);
+}
+.box-2{
+    background-color: #8bc34a;
+}
+.box-3{
+    background-color: #2d2d2d;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.clearBoth{
+    clear: both;
+}
