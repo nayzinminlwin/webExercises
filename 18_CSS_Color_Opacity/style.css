@@ -6,9 +6,9 @@
 
 .container{
     position: relative;
-    /* float: left; */
+    float: left;
     background-color:#df1767;
-    margin: 50px auto;
+    margin: 50px 50px;
 }
 
 .square {
