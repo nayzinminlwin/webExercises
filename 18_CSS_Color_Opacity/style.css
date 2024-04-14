@@ -20,13 +20,17 @@
 }
 
 .box-1 {
-    background-color: rgb(55, 130, 209);
+    background-color: rgba(55, 130, 209,0.5);
+    /* rgb is color value and a in rgba mean Alpha,the opacity value which vary 0 to 1. */
 }
 .box-2{
-    background-color: #8bc34a;
+    background-color: #8bc34acc;
+    /* cc behind the #ffffffcc is the opactity value. */
 }
 .box-3{
     background-color: #2d2d2d;
+    opacity: 0.5;
+    /* we can also split out the opacity value to another line which will affect the whole box-3 element. */
 }
 
 .text-white{
