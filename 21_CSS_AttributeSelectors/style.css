@@ -4,3 +4,13 @@ a[href="http://google"]{
     padding: 10px;
     border-radius: 8px;
 }
+
+h1[name~="Name"]{
+    background-color: aqua;
+}
+h1[name*="my"]{
+    color: red;
+}
+h1[name^="father"]{
+    color: green;
+}
