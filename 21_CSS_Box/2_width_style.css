@@ -1,0 +1,41 @@
+.container{
+    padding: 2px;
+    /* margin: 1px; */
+    border-radius: 4px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.bg-green{
+    background-color: greenyellow;
+}
+.bg-pink{
+    background-color: pink;
+}
+.bg-lightBlue{
+    background-color: lightblue;
+}
+
+.w-auto{
+    width: auto;
+}
+
+.w-250px{
+    width: 250px;
+}
+
+.w-50pc{
+    width: 50%;
+}
+
+.w-100pc{
+    width: 100%;
+}
+
+.pdLeft-50px{
+    padding-left: 50px;
+}
+
+.mgLeft-50px{
+    margin-left: 50px;
+}
