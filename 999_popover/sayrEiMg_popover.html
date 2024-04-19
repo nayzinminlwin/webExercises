@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popover</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        max-width: 800px;
+        margin: 40px auto;
+      }
+
+      button.action {
+        padding: 8px 25px;
+        font-size: 1.2em;
+      }
+
+      .feedback {
+        padding: 20px;
+        background: deeppink;
+        color: white;
+        border-radius: 8px;
+      }
+
+      #auto:popover-open {
+        position: absolute;
+        inset: unset;
+        bottom: 40px;
+        right: 40px;
+      }
+
+      #auto::backdrop {
+        background: rgba(0, 0, 0, 0.5);
+      }
+
+      #manual:popover-open {
+        position: absolute;
+        inset: unset;
+        top: 20px;
+        right: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+      }
+
+      button.close {
+        background: transparent;
+        border: 0 none;
+        font-size: 1.1em;
+        color: white;
+        padding: 0;
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="action" popovertarget="auto">Backdrop Close</button>
+
+    <button class="action" popovertarget="manual" popovertargetaction="show">
+      Manual Close
+    </button>
+
+    <div class="feedback" id="auto" popover>
+      Click/Tap everywhere else to close
+    </div>
+
+    <div class="feedback" id="manual" popover="manual">
+      Some Feedback Message With Close Button
+      <button class="close" popovertarget="manual" popovertargetaction="hide">
+        &times;
+      </button>
+    </div>
+  </body>
+</html>
