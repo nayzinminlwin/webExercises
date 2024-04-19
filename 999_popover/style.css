@@ -1,0 +1,15 @@
+.feedback:popover-open{
+    background-color: pink;
+}
+
+div::backdrop{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+div:popover-open{
+    background-color: aqua;
+    position: absolute;
+    inset: unset;
+    top: 20px;
+    right: 20px;
+}

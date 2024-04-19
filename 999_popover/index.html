@@ -16,5 +16,29 @@
     <label for="pop2"> Click below for popover!</label>
     <button id="pop2" popovertarget="div2">Pop anoter!</button>
     <div id="div2" popover="auto">This is anoter pop over division!!!</div>
+    <br /><br />
+    <!-- PopOver Manual -->
+    <label for="pop3">Click below for Manual Popover!</label>
+    <button id="pop3" popovertarget="div3" popovertargetaction="show">
+      Show popover!
+    </button>
+    <div id="div3" popover="manual">
+      This is a popover test by manual button.
+      <br />
+      <button
+        style="margin-left: 30%"
+        popovertarget="div3"
+        popoveraction="hide"
+      >
+        Hide popover!
+      </button>
+    </div>
+    <br /><br />
+    <!-- Popover testing with CSS margin left -->
+    <label for="b4">Press the button for popover4.</label>
+    <button id="b4" type="button" popovertarget="div4">Popover div4</button>
+    <div class="feedback" id="div4" popover="auto">
+      This is division 4 popover.
+    </div>
   </body>
 </html>
