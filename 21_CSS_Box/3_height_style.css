@@ -1,0 +1,25 @@
+.container{
+    padding: 3px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-color: black;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+.bg-lightBlue{
+    background-color: lightblue;
+}
+.h-auto{
+    height: auto;
+}
+.h-200px{
+    height: 200px;
+}
+.h-50pc{
+    height: 50%;
+}
+.w-200px{
+    width: 200px;
+}
