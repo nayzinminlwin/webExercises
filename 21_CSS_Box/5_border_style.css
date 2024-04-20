@@ -1,5 +1,7 @@
 div{
     float: left;
+    width: 80px;
+    height: 80px;
     margin-bottom: 15px;
     margin-right: 100px;
 }
@@ -54,12 +56,26 @@ div{
     border-right: 8px double rgb(211, 64, 89);
 }
 
-.w-50px{
-    width: 80px;
-    /* background-color: aqua; */
+.border-long-syntax{
+    border-width: 8px;
+    border-style: solid;
+    border-color: rgb(211, 64, 89);
+}
+.left-dotted-pink{
+    border-left-width: 8px;
+    border-left-style: dotted;
+    border-left-color: rgb(211, 64, 89);
 }
 
-.h-50px{
-    height: 80px;
-    /* background-color: bisque; */
+.top-double-pink{
+    border-top-width: 8px;
+    border-top-style: double;
+    border-top-color: rgb(211, 64, 89);
+}
+
+.mix-baby{
+    border-left: 8px double greenyellow;
+    border-bottom: 8px solid blueviolet;
+    border-top: 8px dotted black;
+    border-right: 8px dashed pink;
 }
