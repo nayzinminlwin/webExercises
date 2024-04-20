@@ -1,0 +1,38 @@
+.container{
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.h-150px{
+    height: 150px;
+}
+.w-150px{
+    width: 150px;
+}
+.bg-lightBlue{
+    background-color: lightblue;
+}
+.bg-pink{
+    background-color: pink;
+}
+.bg-rose{
+    background-color: rgb(202, 67, 67);
+}
+
+.bg-black{
+    color: white;
+    background-color: black;
+}
+
+.overflow-scroll{
+    overflow: scroll;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.overflow-auto{
+    overflow: auto;
+}
