@@ -38,6 +38,22 @@ div{
     border: 8px ridge rgb(211, 64, 89);
 }
 
+.btm-Solid_Pink{
+    border-bottom: 8px solid rgb(211, 64, 89);
+}
+
+.lft-Dotted_Pink{
+    border-left: 8px dotted rgb(211, 64, 89);
+}
+
+.tp-Dashed_Pink{
+    border-top: 8px dashed rgb(211, 64, 89);
+}
+
+.rgt-Double_Pink{
+    border-right: 8px double rgb(211, 64, 89);
+}
+
 .w-50px{
     width: 80px;
     /* background-color: aqua; */
