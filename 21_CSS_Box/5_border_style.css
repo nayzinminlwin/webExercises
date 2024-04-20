@@ -1,0 +1,49 @@
+div{
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 100px;
+}
+.clear-both{
+    clear: both;
+}
+.bd-3px_Solid_Pink{
+    border: 8px solid rgb(211, 64, 89);
+}
+
+.bd-3px_Dashed_Pink{
+    border: 8px dashed rgb(211, 64, 89);
+}
+
+.bd-3px_Dotted_Pink{
+    border: 8px dotted rgb(211, 64, 89);
+}
+
+.bd-3px_Double_Pink{
+    border: 8px double rgb(211, 64, 89);
+}
+
+.bd-3px_Inset_Pink{
+    border: 8px inset rgb(211, 64, 89);
+}
+
+.bd-3px_Outset_Pink{
+    border: 8px outset rgb(211, 64, 89);
+}
+
+.bd-3px_Groove_Pink{
+    border: 8px groove rgb(211, 64, 89);
+}
+
+.bd-3px_Ridge_Pink{
+    border: 8px ridge rgb(211, 64, 89);
+}
+
+.w-50px{
+    width: 80px;
+    /* background-color: aqua; */
+}
+
+.h-50px{
+    height: 80px;
+    /* background-color: bisque; */
+}
