@@ -9,7 +9,7 @@
 .box{
     width: 100px;
     height: 100px;
-    border: 4px Solid red;
+    border: 3px Solid red;
     display: flex;
     margin: 30px auto;
     justify-content: space-around;
@@ -31,4 +31,15 @@
 
 .pc_pixel{
     border-radius: 50%;
+}
+
+.pixel:after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background-color: #de1767;
+    opacity: 0.3;
+    left: -63px;
+    top: -38px;
 }
