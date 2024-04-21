@@ -1,9 +1,16 @@
 div{
     float: left;
-    width: 80px;
-    height: 80px;
-    margin-bottom: 15px;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
     margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    background-color: aqua;
 }
 .clear-both{
     clear: both;
@@ -73,9 +80,15 @@ div{
     border-top-color: rgb(211, 64, 89);
 }
 
-.mix-baby{
+/* .mix-baby{
     border-left: 8px double greenyellow;
     border-bottom: 8px solid blueviolet;
     border-top: 8px dotted black;
     border-right: 8px dashed pink;
+} */
+
+.mix-baby{
+    border-width: 10px 20px 5px 10px;
+    border-style: dotted dashed solid double;
+    border-color: black pink blueviolet greenyellow;
 }
