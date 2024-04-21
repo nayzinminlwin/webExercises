@@ -1,0 +1,32 @@
+.container{
+    background-color: aqua;
+    border: 0.5px solid gray;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+.box{
+    background-color: pink;
+    border: 2px solid red;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    border-radius: 2px;
+    margin: auto;
+    /* text-align: right; */
+}
+
+.pd-20px{
+    padding: 20px;
+}
+
+.pd-left-20px{
+    padding-left: 20px;
+}
+
+.pd-20-50px{
+    padding: 20px 50px;
+}
+
+.pd-20-30-40-50px{
+    padding: 20px 30px 40px 50px;
+}
