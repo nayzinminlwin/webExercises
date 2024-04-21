@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 4px Solid red;
+    display: flex;
+    margin: 30px auto;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.pixel{
+    border-radius: 30px;
+}
+
+.duo_pixel{
+    border-radius: 30px 15px;
+}
+
+.quard_pixel{
+    border-radius: 5px 15px 20px 40px;
+}
+
+.pc_pixel{
+    border-radius: 50%;
+}
