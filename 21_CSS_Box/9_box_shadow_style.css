@@ -5,6 +5,7 @@
     padding: 10px 10%;
     justify-content: space-between;
     position: relative;
+    font-family: monospace;
 }
 
 .Box{
@@ -61,4 +62,26 @@
 .multi_4{
     border-radius: 50%;
     box-shadow: -5px -5px 5px 0px red,5px 5px 5px 0px greenyellow;
+}
+
+.inset_1{
+    box-shadow: inset 5px 5px 0px 0px #333;
+}
+.inset_2{
+    box-shadow: inset 0px 0px 0px 5px #333;
+}
+.inset_3{
+    box-shadow: inset 5px 5px 10px 2px #333;
+}
+.outset_inset{
+    border: none;
+    background-color: aliceblue;
+    color: black;
+
+    box-shadow: inset 2px 2px 4px 0px #fff,
+    inset -2px -2px 8px 0px #c3c3c3,
+    -3px -3px 4px 0px #ffffff,
+    2px 3px 10px 0px #cacacc;
+
+    text-align: center;
 }
