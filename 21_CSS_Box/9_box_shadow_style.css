@@ -22,7 +22,6 @@
 .shadow_1{
     box-shadow: 5px 5px 5px 0px #333;
 }
-
 .shadow_2{
     box-shadow: 15px 5px 5px 0px #333;
 }
@@ -43,4 +42,23 @@
 }
 .shadow_8{
     box-shadow: 5px 5px 5px 5px #333;
+}
+
+.multi_1{
+    box-shadow: 5px 5px 0px 0px red,
+    10px 10px 0px 0px greenyellow,
+    15px 15px 0px 0px blue;
+}
+.multi_2{
+    box-shadow: -5px -5px 0px 0px red,
+    -10px -10px 0px 0px greenyellow,
+    -15px -15px 0px 0px blue;
+}
+.multi_3{
+    box-shadow: -5px -5px 5px 0px red,5px 5px 5px 0px greenyellow;
+}
+
+.multi_4{
+    border-radius: 50%;
+    box-shadow: -5px -5px 5px 0px red,5px 5px 5px 0px greenyellow;
 }
