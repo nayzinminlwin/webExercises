@@ -9,6 +9,10 @@
     border-radius: 3px;
 }
 
+h1{
+    margin:5px 15px;
+}
+
 .Decimal{
     list-style-type: decimal;
 }
@@ -43,4 +47,26 @@
 
 .Square{
     list-style-type: square;
+}
+
+.Heart{
+    list-style-image: url("https://raw.githubusercontent.com/lwinmoepaing/html-css-beginner/master/22_css_list/images/HeartIcon.png");
+}
+
+.Star{
+    list-style-image: url("https://raw.githubusercontent.com/lwinmoepaing/html-css-beginner/master/22_css_list/images/StarIcon.png");
+}
+
+.Pixel{
+    list-style-image: url(https://raw.githubusercontent.com/lwinmoepaing/html-css-beginner/master/22_css_list/images/PixelIcon.png);
+}
+
+.List-Inside{
+    list-style-position: inside;
+}
+.List-Outside{
+    list-style-position: outside;
+}
+.List-Style{
+    list-style: outside circle url("https://raw.githubusercontent.com/lwinmoepaing/html-css-beginner/master/22_css_list/images/HeartIcon.png");
 }
