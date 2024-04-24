@@ -1,0 +1,39 @@
+h2{
+    text-align: center;
+}
+table{
+    margin: auto;
+    border: 1px solid black;
+    min-width: 550px;
+}
+
+.Normal{
+    border-collapse: separate;
+    
+}
+th,td{
+    border: 1px solid black;
+}
+
+.Collapse{
+    border-collapse: collapse;
+}
+
+.Seperate{
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+.Highligh{
+    border-collapse: collapse;
+    border: 1px solid #dfdfdf;
+}
+
+.Highligh th, .Highligh td{
+    border: none;
+    padding: 15px;
+}
+
+.Highligh tr:nth-child(even){
+    background-color: #dfdfdf;
+}
