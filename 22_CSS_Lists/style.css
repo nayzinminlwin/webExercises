@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.list-box{
+    flex: 1;
+    margin: 5px 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.Decimal{
+    list-style-type: decimal;
+}
+
+.Decimal-Leading{
+    list-style-type: decimal-leading-zero;
+}
+
+.Low-Alpha{
+    list-style-type: lower-alpha;
+}
+
+.Upper-Alpha{
+    list-style-type: upper-alpha;
+}
+
+.Low-Roman{
+    list-style-type: lower-roman;
+}
+
+.Upper-Roman{
+    list-style-type: upper-roman;
+}
+
+.Circle{
+    list-style-type: circle;
+}
+
+.Disc{
+    list-style-type: disc;
+}
+
+.Square{
+    list-style-type: square;
+}
