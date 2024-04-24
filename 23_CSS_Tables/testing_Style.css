@@ -1,0 +1,13 @@
+table{
+    min-width: 450px;
+    border-collapse: collapse;
+    border: 1px solid #dfdfdf;
+}
+
+td,th{
+    padding: 10px;
+}
+
+table tr:nth-child(even){
+    background-color: #dfdfdf;
+}
