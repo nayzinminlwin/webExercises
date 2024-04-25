@@ -38,17 +38,38 @@
     line-height: 150px;
 }
 
+.absoluteContainer{
+    position: absolute;
+    top: 5px;
+    right : 5px;
+}
+
 .box2{
-    position: static;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
     background-color: pink;
+    opacity: 0.8;
     height: 145px;
     width: 145px;
     text-align: center;
     line-height: 150px;
 }
 
+.relative-container{
+    border: 1px solid blue;
+    border-radius: 4px;
+    height: 300px;
+    width: 300px;
+
+    position: relative;
+}
+
 .box3{
-    position: static;
+    position: absolute;
+    top: 0px;
+    right: 0px;
     background-color: pink;
     height: 145px;
     width: 145px;
