@@ -1,0 +1,43 @@
+.clear{
+    clear: both;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100%;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+div{
+    border: 1px solid rgb(239, 124, 124);
+    border-radius: 1px;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.float-lf{
+    float: left;
+}
+
+/* .float-rt{
+    float: right;
+} */
+
+.w-50pc{
+    width: 50%;
+}
+
+.w-33_33pc{
+    width: 33.33%;
+}
+
+.w-66_66pc{
+    width: 66.66%;
+}
