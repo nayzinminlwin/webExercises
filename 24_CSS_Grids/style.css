@@ -1,0 +1,20 @@
+.Grid{
+    display: grid;
+
+    /* grid-template-columns: 20% 30% 50%; */
+    grid-template-columns: 2fr 3fr 5fr;
+
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(3,1fr); */
+    
+}
+
+.box{
+    padding: 3rem;
+    background-color: #74b9ff;
+    /* border: 1px solid black; */
+}
+
+.box:nth-child(even){
+    background-color: #a29bfe;
+}
