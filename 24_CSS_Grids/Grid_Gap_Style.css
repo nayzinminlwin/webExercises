@@ -1,0 +1,19 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,minmax(50px,auto));
+    /* grid-auto-rows: minmax(50px,auto); */
+
+    /* row-gap: 10px;
+    column-gap: 10px; */
+
+    gap: 10px 20px;
+}
+
+.box{
+    background-color: aqua;
+}
+
+.box:nth-child(even){
+    background-color: blueviolet;
+}
