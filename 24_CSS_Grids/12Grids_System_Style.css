@@ -1,0 +1,44 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-auto-rows: auto;
+
+    gap: 10px;
+}
+
+.col-12{
+    background-color: aqua;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.box{
+    background-color: pink;
+    opacity: 0.6;
+    border-radius: 10px;
+    height: 100px;
+
+    font-size: xx-large;
+    color: white;
+
+    line-height: 100px;
+    padding-left: 20px;
+}
+
+.s-right{
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.col-12{
+    grid-column: auto/ span 12;
+}
+.col-6{
+    grid-column: auto / span 6;
+}
+
+.para{
+    font-size: larger;
+    height: 200px;
+    line-height: normal;
+}
