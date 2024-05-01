@@ -14,31 +14,80 @@
 
 .box{
     background-color: pink;
-    opacity: 0.6;
-    border-radius: 10px;
-    height: 100px;
+    opacity: 0.5;
+    border-radius: 20px;
+    height: 30px;
 
-    font-size: xx-large;
-    color: white;
+    font-size: x-large;
 
-    line-height: 100px;
-    padding-left: 20px;
+    /* line-height: 30px; */
+    padding: 20px;
 }
 
-.s-right{
-    background-color: blue;
-    margin: 0 auto;
+.col-3{
+    grid-column: auto/ span 3;
+    height: 300px;
+}
+.col-4{
+    grid-column: auto/ span 4;
+}
+
+.col-6{
+    grid-column: auto / span 6;
 }
 
 .col-12{
     grid-column: auto/ span 12;
 }
-.col-6{
-    grid-column: auto / span 6;
+.col-7{
+    grid-column: auto/ span 7;
+}
+.col-5{
+    grid-column: auto/ span 5;
+}
+
+.midd{
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+span{
+    cursor: pointer;
+}
+
+.menu{
+    width: 6px;
+    height: 6px;
+    margin-left: auto;
+    border: 1px solid black;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.center-helper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .para{
+    padding: 20px;
     font-size: larger;
-    height: 200px;
+    height: 60px;
     line-height: normal;
+}
+
+.h-60{
+    height: 120px;
+}
+
+.h-40{
+    height: 40px;
+}
+
+.h-20{
+    height: 20px;
 }
