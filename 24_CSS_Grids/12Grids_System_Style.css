@@ -6,17 +6,10 @@
     gap: 10px;
 }
 
-.col-12{
-    background-color: aqua;
-    opacity: 0.5;
-    border-radius: 10px;
-}
-
 .box{
     background-color: pink;
     opacity: 0.5;
     border-radius: 20px;
-    height: 30px;
 
     font-size: x-large;
 
@@ -26,7 +19,6 @@
 
 .col-3{
     grid-column: auto/ span 3;
-    height: 300px;
 }
 .col-4{
     grid-column: auto/ span 4;
@@ -58,10 +50,10 @@ span{
 }
 
 .menu{
-    width: 6px;
-    height: 6px;
+    width: 30px;
+    height: 30px;
     margin-left: auto;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 50%;
 
     cursor: pointer;
@@ -80,12 +72,12 @@ span{
     line-height: normal;
 }
 
-.h-60{
-    height: 120px;
+.h-180{
+    height: 180px;
 }
 
-.h-40{
-    height: 40px;
+.h-80{
+    height: 80px;
 }
 
 .h-20{
