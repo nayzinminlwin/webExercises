@@ -1,0 +1,13 @@
+.grid-12{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    background-color: #00ffff;
+    column-gap: 10px;
+    
+}
+
+.col-4{
+    grid-column: auto / span 4;
+    border-radius: 50px;
+    background-color: pink;
+}
