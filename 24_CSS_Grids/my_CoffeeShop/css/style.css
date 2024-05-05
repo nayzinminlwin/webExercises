@@ -1,21 +1,22 @@
 .nav-bar{
-    padding: 20px;
+    padding: 12px;
+    margin-bottom: 20px;
 }
 
 .nav-title{
-
+    /* padding-top: 10px; */
 }
 
 .font-title{
-
+    font-size: 32px;
 }
 
 .font-body{
-
+    font-size: 16px;
 }
 
 .font-bold{
-
+    font-weight: 500;
 }
 
 .item-around-helper{
@@ -26,11 +27,15 @@
 }
 
 .nav-link-group{
-
+    /* padding: 20px; */
+    border: 1px solid #dfdfdf;
+    border-radius: 50px;
 }
-
+.nav-link-group > .link{
+    text-decoration: none;
+}
 .color-black{
-
+    color: black;
 }
 
 .link{
