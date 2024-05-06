@@ -26,6 +26,13 @@
     align-items: center;
 }
 
+.item-center-helper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 .nav-link-group{
     /* padding: 20px; */
     border: 1px solid #dfdfdf;
@@ -38,6 +45,15 @@
     color: black;
 }
 
-.link{
-    
+.menu-icon{
+    border: 1px solid #dfdfdf;
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.menu-icon-image{
+
 }
