@@ -1,3 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bitter";
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .nav-bar{
     padding: 12px;
     margin-bottom: 20px;
@@ -46,12 +58,11 @@
 }
 
 .menu-icon{
-    border: 1px solid #dfdfdf;
+    border: 2px solid #dfdfdf;
     width: 60px;
     height: 60px;
-    /* margin-left: auto;
-    margin-top: 10px; */
-    margin: 10px auto;
+    margin-left: auto;
+    margin-top: 15px;
     border-radius: 50%;
     cursor: pointer;
 }
