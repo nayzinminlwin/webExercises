@@ -1,0 +1,30 @@
+.nav-bar{
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.nav-title{
+    padding-top: 10px;
+}
+
+.nav-link-group{
+    padding: 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 50px;
+}
+.nav-link-group > .link{
+    text-decoration: none;
+}
+
+.menu-icon{
+    border: 2px solid #dfdfdf;
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.menu-icon-image{
+
+}
