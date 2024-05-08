@@ -28,3 +28,29 @@
 .menu-icon-image{
 
 }
+
+.section{
+    margin-bottom: 20px;
+}
+
+.section-title-group{
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.section-title-group > h2{
+    margin-bottom: 4px;
+}
+
+.section-right-container{
+    padding: 16px 40px;
+}
+
+.section-coffee-img{
+    width: 120px;
+}
+
+.section-right-text{
+    padding: 0 40px;
+}
