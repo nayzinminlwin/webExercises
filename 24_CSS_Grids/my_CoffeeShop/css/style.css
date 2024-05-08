@@ -52,7 +52,7 @@
 
 .button{
     height: 46px;
-    padding: 0px 48px;
+    padding: 0px 28px;
     border: 1px solid #dfdfdf;
     border-radius: 50px;
     background-color: white;
@@ -74,4 +74,8 @@
 
 .mg-bt-16px{
     margin-bottom: 16px;
+}
+
+.mg-bt-20px{
+    margin-bottom: 20px;
 }
