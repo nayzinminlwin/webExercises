@@ -25,9 +25,9 @@
     cursor: pointer;
 }
 
-.menu-icon-image{
+/* .menu-icon-image{
 
-}
+} */
 
 .section{
     margin-bottom: 20px;
@@ -53,4 +53,15 @@
 
 .section-right-text{
     padding: 0 40px;
+}
+
+.coffee-card-container{
+    margin-bottom: 20px;
+    padding: 12px;
+}
+
+.coffee-card-img{
+    height: 310px;
+    width: 280px;
+    border-radius: 20px;
 }
