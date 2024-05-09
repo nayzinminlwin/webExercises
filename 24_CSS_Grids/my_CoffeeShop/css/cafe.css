@@ -65,3 +65,17 @@
     width: 280px;
     border-radius: 20px;
 }
+
+.feature-coffee{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.feature-coffee-text{
+    padding: 40px;
+
+}
+.feature-coffee-img{
+    height: 230px;
+    width: 480px;
+}
