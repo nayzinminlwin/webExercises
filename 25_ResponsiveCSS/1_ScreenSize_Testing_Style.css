@@ -1,0 +1,51 @@
+.title{
+    border-left: 4px solid #ff2424;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.button{
+    border:1px solid #dfdfdf;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}
+
+@media screen and (min-width:640px) {
+    .title{
+        border: none;
+        text-align: center;
+    }
+    .button{
+        width: 400px;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+    .title{
+        font-size: 50px;
+        border: none;
+        color: red;
+    }
+    .button{
+        border-color:red;
+        color: red;
+        background-color: white;
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    .title{
+        text-decoration: underline;
+    }
+    .button{
+        text-decoration: underline;
+    }
+    
+}
