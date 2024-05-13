@@ -1,0 +1,33 @@
+.container{
+    background-color: #e2feff;
+    /* opacity: 0.2; */
+    padding: 1rem;
+    display: flex;
+}
+
+.box{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+}
+
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:nth-child(2n+1){
+    background-color: blueviolet;
+}
+.box:nth-child(2n+2){
+    background-color: greenyellow;
+}
+.box:nth-child(2n+3){
+    background-color: yellow;
+}
+.box:nth-child(2n+4){
+    background-color: red;
+}
