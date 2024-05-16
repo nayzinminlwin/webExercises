@@ -1,0 +1,2 @@
+HTML is not a programming language.
+It is markup language like stated in its name HyperText Markup Language.
