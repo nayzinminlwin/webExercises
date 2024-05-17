@@ -1,2 +1,7 @@
 HTML is not a programming language.
 It is markup language like stated in its name HyperText Markup Language.
+
+in Anchor link 
+to Auto Open Link in a new tab, u add the attribute "target" with the value "_blank".
+<a href="google.com" target="_blank"> Go to google </a>
+the default value of target is _self,which mean it will open link in its own tab.
